@@ -14,7 +14,7 @@ const  test = () => {
     let countPigs = Object.values(animals)[2] * valuesPigs;
     let countChickens = Object.values(animals)[0] * valuesChickens;
     let countCows = Object.values(animals)[1] * valuesCows;
-    console.log("Total count of Legs" + ":" + (countChickens +  countCows + countPigs));
+    console.log(`Total count of Legs:  ${(countChickens +  countCows + countPigs)}`);
 }
   
 test()
